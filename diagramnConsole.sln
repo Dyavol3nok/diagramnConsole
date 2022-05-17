@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "diagramnConsole", "diagramnConsole\diagramnConsole.csproj", "{8B2FFFB6-ED3E-4A74-B0DC-8190B62C5F5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B2FFFB6-ED3E-4A74-B0DC-8190B62C5F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2FFFB6-ED3E-4A74-B0DC-8190B62C5F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2FFFB6-ED3E-4A74-B0DC-8190B62C5F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2FFFB6-ED3E-4A74-B0DC-8190B62C5F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D5E1456-6EB5-41C1-A58D-F6244876096C}
+	EndGlobalSection
+EndGlobal
