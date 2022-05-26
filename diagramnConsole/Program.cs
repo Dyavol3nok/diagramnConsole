@@ -1,7 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 using diagramnConsole;
 using diagramnConsole.drawio;
 using System.Text.RegularExpressions;
+using System.Windows;
 using System.Xml;
 using System.Xml.Serialization;
 
@@ -24,18 +25,27 @@ string[] lines = File.ReadAllLines(destination);
 var rx = new Regex(@"\s+",RegexOptions.Compiled);
 const string temp = "temp.xml";
 
-foreach (string line in lines)
+if (lines.Length > 0)
 {
-    string[] columns = rx.Split(line);
+    foreach (string line in lines)
+    {
+        string[] columns = rx.Split(line);
 
-    txtentry.Add(new TxtEntry
+        txtentry.Add(new TxtEntry
         {
             Name = columns[0],
-            Pos =  columns[1],
+            Pos = columns[1],
             Frequency = int.Parse(columns[2]),
             RelativeFrequency = float.Parse(columns[3])
         });
+    }
 }
+else
+{
+    Console.Write("The text file is empty");
+    System.Environment.Exit(0);
+}
+
 
 var mxGM = new MxGraphModel()
 {
