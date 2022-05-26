@@ -1,28 +1,15 @@
-TOTAL            15281
-the                     839 
-and                     582 
-to                      484 
-of                      356 
-will                    293 
-we                      279 
-a                       235 
-in                      223 
-for                     209 
-that                    165 
-is                      118 
-are                     117 
-more                    113 
-on                      111 
-by                      110 
-'s                      100 
-people                  100 
-their                    92 
-it                       90 
-be                       89 
-with                     88 
-government               84 
-have                     75 
-this                     75 
-liberal                  72 
-they                     67 
-democrats                66 
+controller	NN1	357	0.88
+strips	NN2	252	0.62
+radar	NN1	204	0.50
+strip	NN1	203	0.50
+chief	NN1	168	0.41
+flight	NN1	136	0.34
+sector	NN1	108	0.27
+ph	NN1	98	0.24
+traffic	NN1	89	0.22
+controllers	NN2	89	0.22
+system	NN1	87	0.21
+information	NN1	86	0.21
+plane	NN1	83	0.20
+time	NNT1	81	0.20
+wing	NN1	80	0.20

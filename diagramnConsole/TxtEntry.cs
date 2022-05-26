@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace diagramnConsole
 {
-    public class Csventry
+    public class TxtEntry
     {
-        public int Count { get; set; }
         public string Name { get; set; } = "";
+        public string Pos { get; set; }
+        public int Frequency { get; set; }
+        public float RelativeFrequency { get; set; }
 
     }
 }
